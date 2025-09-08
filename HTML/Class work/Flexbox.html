@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 200px;
+      /* try changing to flex-start, flex-end, baseline */
+      justify-content: space-around;
+      /* try changing to space-between, space-evenly, flex-start, flex-end, center */
+      border: 2px solid #333;
+      flex-wrap: wrap;
+      /* try changing to column wrap */
+      margin: 20px;
+      height: 200px;
+      width: 100px;
+      /* useful for vertical alignment demos */
+    }
+
+    .item {
+      background: lightblue;
+      border: 1px solid #333;
+      padding: 20px;
+      text-align: center;
+      align-content: stretch;
+      font-size: 18px;
+      width: 120px;
+    }
+    </style>
+
+
+    </body>
+    </html>
